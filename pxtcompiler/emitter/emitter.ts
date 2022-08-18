@@ -508,6 +508,7 @@ namespace ts.pxtc {
         switch (tp) {
             case "_Buffer": return pxt.BuiltInType.BoxedBuffer
             case "_Image": return target.imageRefTag || pxt.BuiltInType.RefImage
+            case "_ImageG": return 9 // from pxt-arcade pxtarget.json: "imageRefTag": 9,
             case "_Action": return pxt.BuiltInType.RefAction
             case "_RefCollection": return pxt.BuiltInType.RefCollection
             default:
