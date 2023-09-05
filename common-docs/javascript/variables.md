@@ -24,10 +24,6 @@ let a = 10;
 
 The key difference is not in the syntax, but in the semantics, which we'll now dive into.
 
-### ~hint
-
-Use `let` instead of `var` to introduce a new variable!!!
-
 ### ~
 
 ## Block-scoping
